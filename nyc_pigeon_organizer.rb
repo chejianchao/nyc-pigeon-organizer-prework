@@ -10,7 +10,7 @@ def nyc_pigeon_organizer(data)
       if res[bird_name][attribute] == nil 
         res[bird_name][attribute] = []
       end
-      res[bird_name][attribute] << attr_name
+      res[bird_name][attribute] << attr_name.to_s
     }
   }
   puts res
