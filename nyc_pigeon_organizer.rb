@@ -13,5 +13,7 @@ def nyc_pigeon_organizer(data)
       res[bird_name][attribute] << attr_name
     }
   }
+  puts res
   res
 end
+
